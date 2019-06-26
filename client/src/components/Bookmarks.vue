@@ -10,8 +10,9 @@
 </template>
 
 <script>
+import axios from 'axios';
 export default {
-  el: '#addresses',
+  name: 'Addresses',
   data () {
       return {
         addresses: []
